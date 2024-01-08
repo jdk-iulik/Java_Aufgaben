@@ -1,4 +1,4 @@
-package Classen_Vererbung;
+package Aufgabe_3.Classen_Vererbung;
 
 public class Vechicle implements Driveable {
     private String marke;

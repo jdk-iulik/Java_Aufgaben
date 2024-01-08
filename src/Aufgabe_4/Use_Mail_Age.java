@@ -1,3 +1,5 @@
+package Aufgabe_4;
+
 import java.util.Scanner;
 
 public class Use_Mail_Age {
@@ -55,19 +57,7 @@ public class Use_Mail_Age {
             System.out.println(stateUserInpute);
         } while(!stateUserInpute);
         System.out.println(String.format("Name: "+ name + "\n" + "Alter: "+ alt + "\n"+ "Email: "+ mail));
-        Person p=new Person(name, mail, alt);
-    }
-
-}
-class Person{
-    String name;
-    String mail;
-    byte alt;
-
-    public Person(String name, String mail, byte alt){
-        this.name=name;
-        this.mail=mail;
-        this.alt=alt;
+        Person p = new Person(name, mail, alt);
     }
 
 }

@@ -1,4 +1,4 @@
-package Classen_Vererbung;
+package Aufgabe_3.Classen_Vererbung;
 
 public class Demoversion {
     public static void main(String[] args) {
